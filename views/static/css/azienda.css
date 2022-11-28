@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+}
+
+.titoloAzienda{
+    position: relative;
+    top:20%;
+    left: 10%;
+    width: 80%;
+}
+.contenuto{
+    position:relative;
+    top:30%;
+    left: 5%;
+    width: 90%;
+    height: 40%;
+}
+.acontC{
+    position: relative;
+    top:20%;
+    left: 5%;
+    width: 40%;
+}
+.imgC{
+    position: relative;
+    top:-30%;
+    width: 45%;
+    left: 50%;
+}
+@media (max-width: 668px) {
+    .contenuto{
+        position:relative;
+        top:30%;
+        left: 5%;
+        width: 90%;
+        height: 100%;
+    }
+    .acontC{
+        position: relative;
+        top:60%;
+        left: 5%;
+        width: 90%;
+    }
+    .imgC{
+        position: relative;
+        top:-30%;
+        width: 90%;
+        left: 5%;
+    }
+}

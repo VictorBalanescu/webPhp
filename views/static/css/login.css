@@ -1,0 +1,110 @@
+*{
+    box-sizing:border-box;
+}
+/*lacaratteristiche del corpo*/
+
+body {
+    height: 100%;
+}
+/*le impostazioni del container e la posizione nella pagina*/
+.containerM{
+    position: absolute;
+    top:20%;
+    left: 35%;
+    background-color:#2a50c9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    width: 30%;
+}
+
+/*le impostazioni del header con la sctitta crea utente*/
+.header1{
+    background-image: linear-gradient(to right,  #31e041,#2a50c9);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    font-size:25px;
+}
+.header1 h2{
+    margin: 0;
+    color: white;
+}
+/*le caratteristiche del form*/
+
+.form{
+    padding: 5% 10%;
+}
+.formControll{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.formControll label{
+    display: inline-block;
+    color: beige;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.formControll input {
+    border:2px solid #eee8e8;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    color: transparent;
+}
+input[type="text"]{
+    color: #111111;
+}
+input[type="password"]{
+    color: #111111;
+}
+.formControllError{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #e74c3c;
+}
+.form button {
+    background-color:#b4b4b4;
+    border: 2px solid #b4b4b4;
+    border-radius: 4px;
+    color:#fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.form button:hover,button:active {
+    background-color: #a09f9f;
+    border: 2px solid #b4b4b4;
+    border-radius: 4px;
+    color:#fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.info{
+    color: white;
+}
+.link{
+    color: navy;
+    text-decoration: none;
+}
+.link:hover{
+color: black;
+}
+@media (max-width: 668px) {
+    .containerM{
+        position: absolute;
+        top:20%;
+        left: 5%;
+        background-color:#2a50c9;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+        width: 90%;
+    }
+
+}

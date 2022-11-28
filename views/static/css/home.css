@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+}
+.titolo{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+}
+.contenuto{
+    position: relative;
+    top: 30%;
+    width: 80%;
+    left: 10%;
+    height: 30%;
+
+}
+.desC{
+    position: relative;
+    top: 50%;
+    width: 45%;
+}
+.ImgC{
+    position: relative;
+    top:-30%;
+    width: 45%;
+    left: 50%;
+}
+
+@media (max-width: 668px) {
+    .contenuto{
+        position: relative;
+        top: 30%;
+        width: 80%;
+        left: 10%;
+        height: 30%;
+
+    }
+    .desC{
+        position: relative;
+        top: 150%;
+        left: 5%;
+        width: 90%;
+    }
+    .ImgC{
+        position: relative;
+        top:-100%;
+        width: 100%;
+        left: 0%;
+    }
+}
